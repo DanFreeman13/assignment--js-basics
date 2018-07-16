@@ -10,18 +10,14 @@
  // ++ YOUR Code below (write the 'isNegative' function): ++
 
 
+function isNegative (number) {
 
-
-
-
-
-
-
-
-
-
-
-
+	if (number < 0) {
+		return true;
+	} else {
+		return false;
+	}
+}
 
 // *~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*
 // *~*~*~*~*~*~*~* Tests (Don't Touch) *~*~*~*~*~*~*~*~*

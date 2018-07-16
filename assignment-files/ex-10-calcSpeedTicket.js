@@ -36,6 +36,22 @@
 
 // ++ YOUR Code below (write the 'makeGreeting' function): ++
 
+function calcSpeedTicket (spdlimt, spdrept, isprtctd) {
+
+	if (spdrept <= spdlimt) {
+		return 0;
+	} else if ((spdrept-spdlimt) < 20 && (isprtctd === false)) {
+		return 150;
+	} else if ((spdrept-spdlimt) < 20 && (isprtctd === true)) {
+	return 300;
+	} else if ((spdrept-spdlimt) >= 20 && (isprtctd === false)) {
+		return 250;
+	} else {
+		return 500;
+	}
+
+}
+
 
 //*-*~*~*~*~*~ Don't Touch *~*~*~*~*~*~*~*
 

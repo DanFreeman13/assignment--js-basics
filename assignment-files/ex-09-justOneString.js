@@ -12,6 +12,13 @@
 
 // ++ YOUR Code below (write the 'makeGreeting' function): ++
 
+function justOneString (va1, va2) {
+	if ((typeof va1 !== "string"  && typeof va2 !== "string") || (typeof va1 === "string"  && typeof va2 === "string")) {
+		return false;
+	} else {
+		return true;
+	}
+}
 
 
 /*-------------------TEST-1-------------------------*/
@@ -21,7 +28,7 @@
 console.assert(justOneString('peanut', 'butter') === false)
 
 
-console.log("==== ex-08-isVowel : TEST 1 ====");
+console.log("==== ex-09-justOneString : TEST 1 ====");
 console.assert(justOneString('a', 5) === true)
 console.assert(justOneString(6, 'dotron') === true)
 console.assert(justOneString(8, true) === false)

@@ -9,7 +9,15 @@
 
 // ++ YOUR Code below (write the 'makeGreeting' function): ++
 
+function isVowel (letter) {
 
+	if (letter === "a" || letter === "e" || letter === "i" || letter === "o" || letter === "u" || letter === "A" || letter === "E" || letter === "I" || letter === "O" || letter === "U") {
+		return true;
+	} else {
+		return false;
+	}
+
+}
 
 // *~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*
 // *~*~*~*~*~*~*~* Tests (Don't Touch) *~*~*~*~*~*~*~*~*
@@ -27,6 +35,7 @@ console.assert(isVowel('i') === true);
 console.assert(isVowel('o') === true);
 console.assert(isVowel('u') === true);
 console.assert(isVowel('y') === false);
+ //(of course, 'y' is a vowel!!)
 
 /*-------------------TEST-2-------------------------*/
 // function receives string input

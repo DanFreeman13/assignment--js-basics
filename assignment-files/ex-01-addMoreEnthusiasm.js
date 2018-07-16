@@ -10,7 +10,9 @@
 
 // (DEMO) You, the student, will write the function
 
-
+function addMoreEnthusiasm (text) {
+	return text + "!!!";
+}
 
 
 //*-*~*~*~*~*~ Don't Touch *~*~*~*~*~*~*~*~*~*~*~

@@ -10,6 +10,8 @@ function simpleSum(num1, num2){
   // ++ YOUR Code below: ++
    //  -- NOTE you will need to write the functions for
    //     the other ex-** problems in the problem set
+
+   return num1+num2;
 }
 
 // *~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*
